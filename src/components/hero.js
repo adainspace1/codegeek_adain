@@ -50,7 +50,7 @@ autoPlay
           <div className='m-2'>
             <div className='container'>
               <div className='row'>
-                <Heading subtitle='WELCOME TO Adain Technologies' title='' />
+                <Heading subtitle='WELCOME TO ADAIN TECHNOLOGIES' title='' />
                 <motion.p 
                 initial={{x: -1000}}
                 animate={{x: 0}}
