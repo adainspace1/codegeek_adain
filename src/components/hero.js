@@ -36,7 +36,7 @@ autoPlay
   className='background-video'
   style={{
     position: 'absolute',
-    top: '10%',
+    top: '5%',
     width: '100%',
     height: '100%',
     objectFit: 'cover',
