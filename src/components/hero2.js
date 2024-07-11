@@ -60,18 +60,18 @@ const Services = () => {
             To link consumers with service providers via developed content based products that service the global ICT sphere.            </p>
           </div>
           <ServiceCard
-            imgSrc='/mission.jpg'
+            imgSrc='/Mission.jpg'
             title="Mission"
             desc={"To link consumers with service providers via developed content based products that service the global ICT sphere."}
           />
           <ServiceCard
-            imgSrc='/vision.jpg'
+            imgSrc='/Vision.jpg'
             title="Vission"
             desc={"To be the most preferred technological based company in Nigeria and beyond that provide the right kind of products."}
           />
 
          <ServiceCard
-            imgSrc='/value.jpg'
+            imgSrc='/Value.jpg'
             title="Values"
             desc={"Excellence and timely delivery of solutions, improvement and possibilities."}
           />
