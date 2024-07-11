@@ -50,8 +50,8 @@ const Hero3 = ()=>{
             <div className="flex gap-5 md:gap-10 flex-col flex-1">
 
            <ServiceCard 
-           image={"/t1.webp"}
-           name={"John Smith"}
+           image={"/sky.png"}
+           name={"Sky Blue"}
            title={"Tech Innovators Inc."}
            desc={"Adain transformed our digital strategy, delivering a 50% increase in online engagement within three months. Their innovative solutions and exceptional support have set a new standard for our business."}
            />
