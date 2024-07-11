@@ -57,7 +57,7 @@ autoPlay
                 transition={{
                   duration: "2",
                 }}
-                className="text-2xl text-orange-500 "> Pioneering the future with cutting-edge<br/> AI and innovative tech solutions. Empowering businesses<br/> through intelligent automation and seamless integration.</motion.p>
+                className=" text-orange-500 "> Pioneering the future with cutting-edge<br/> AI and innovative tech solutions. Empowering businesses<br/> through intelligent automation and seamless integration.</motion.p>
                 <div className='transform translate-y-70 animate-button-animation delay-1000'>
                   <button className='md:text-black hover:text-white  bg-orange-500 hover:bg-orange-500 md:bg:hover-black rounded-xl lg:m-8 p-1  w-42 shadow-md'>
                     GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
