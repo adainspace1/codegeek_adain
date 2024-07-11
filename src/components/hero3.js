@@ -32,7 +32,7 @@ const Hero3 = ()=>{
 
     return(
         <>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center mt-20">
         <h1 className="text-orange-500 text-2xl font-bold">Testimonials</h1>
 
 
