@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Hero from '@/components/hero'
 import Services from '@/components/hero2'
 import AdainNavBar from '@/components/navbar'
@@ -9,6 +10,8 @@ export default function Home() {
       <AdainNavBar/>
       <Hero/>
       <Services/>
+
+      <Footer/>
     </>
   
   )
