@@ -60,14 +60,14 @@ const Hero3 = ()=>{
            image={"/nhis.jfif"}
            name={"NHIS"}
            title={"Tech Innovators Inc."}
-           desc={"Adain transformed our digital strategy, delivering a 50% increase in online engagement within three months. Their innovative solutions and exceptional support have set a new standard for our business."}
+           desc={"Partnering with Adain has been a game-changer. Their targeted campaigns boosted our lead generation by 40%, and their dedication to our success is unmatched."}
            />
 
 
 
 <ServiceCard 
            image={"/t1.webp"}
-           name={"John Smith"}
+           name={"Multipips"}
            title={"Tech Innovators Inc."}
            desc={"Adain transformed our digital strategy, delivering a 50% increase in online engagement within three months. Their innovative solutions and exceptional support have set a new standard for our business."}
            />

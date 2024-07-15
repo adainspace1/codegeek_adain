@@ -70,8 +70,8 @@ function AdainNavBar() {
               <div className=" space-x-4 text-lg">
                 
   
-  <ul className="md:px-20 mb-4 mt-2 items-center pr-20 font-medium text-sm... justify-center space-y-4 md:flex md:space-x-10 md:space-y-0">
-  <li className={`text-adainblack hover:text-adainwhite pr-16 ${activeNavItem === 'home' ? 'active' : ''}`}>
+  <ul className="md:px-20 mb-4 mt-2 items-center pr-2 font-medium text-sm... justify-center space-y-4 md:flex md:space-x-10 md:space-y-0">
+  <li className={`text-adainblack hover:text-adainwhite pr-2 ${activeNavItem === 'home' ? 'active' : ''}`}>
     <Link href="/" onClick={() => handleClick('home')}>
       {`Home`}
     </Link>
@@ -126,29 +126,6 @@ function AdainNavBar() {
                     </Link>
                   </li>
 
-                 
-
-                  
-
-          
-                  
-               {/* I created a sign in button here to have an event listener of onclick 
-               that it should listen to handle click function above 
-              the parent codeblock... */}
-
-              
-                              <div className="md:text-adainblack hover:text-adainwhite  bg-adainyellow hover:bg-adainblack md:bg:hover-adainblack rounded-xl lg:m-8 p-1  w-42 shadow-md">
-                              <Link href="/signin" className="sm:px-10 text-sm pr-2 mr-4 text-lg  lg:my-20" onClick={() => handleClick('checkout')}>
-                                Sign in
-                              </Link>
-                            </div>
-            
-                
-                
-                  
-    
-    
-    
 
 </ul>
               </div>
