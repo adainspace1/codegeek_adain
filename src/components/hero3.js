@@ -45,7 +45,7 @@ const Hero3 = ()=>{
 
         </div>
 
-        <div className="flex justify-center items-center bg-white shadow-xl">
+        <div className="flex justify-center items-center bg-white">
 
             <div className="flex gap-5 md:gap-10 flex-col flex-1">
 
