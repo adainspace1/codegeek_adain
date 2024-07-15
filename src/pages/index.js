@@ -4,6 +4,7 @@ import Services from '@/components/hero2'
 import Hero3 from '@/components/hero3'
 import AdainNavBar from '@/components/navbar'
 import Trending from '@/components/trending'
+import ExampleComponent from '@/components/typecompo'
 import React from 'react'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Services/>
       <Hero3/>
       <Trending />
+      
       <Footer/>
     </>
   
