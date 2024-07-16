@@ -154,10 +154,10 @@ const Team = ()=>{
 {/* newsletter */}
 
     <div className="bg-black py-12">
+    <h1 className="text-orange-500 text-center text-2xl">Subscribe to our news letter</h1>
 
         <div className="md:container mx-auto">
             <div className="md:flex justify-center items-center">
-                    <h1 className="text-orange-500 text-center text-2xl">Subscribe to our news letter</h1>
 
     <div className="flex items-center justify-center">
     <input type="tel" id="phone" placeholder="Email" name="phone" className="mt-1 p-2 md:w-full border rounded-md" required/>
