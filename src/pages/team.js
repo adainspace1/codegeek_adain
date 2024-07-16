@@ -19,7 +19,7 @@ const Team = ()=>{
             {/* team card */}
 
 
-            <div className="md:bg-orange-500 py-12 mt-5">
+            <div className="md:bg-black py-12 mt-5">
       <div className="md:container mx-auto">
         <div className="md:flex justify-center items-center">
             
@@ -66,7 +66,7 @@ const Team = ()=>{
                 }}
               ></div>
             </div>
-            <h3 className="text-2xl mb-4">Destined Obihosa</h3>
+            <h3 className="text-2xl mb-4 text-white">Destined Obihosa</h3>
             <p className="text-gray-600 ">
                 Full Stack Developer
              </p>
@@ -91,7 +91,7 @@ const Team = ()=>{
                   }}
                 ></div>
               </div>
-              <h3 className="text-2xl mb-4">Waliyu Gbadamosi</h3>
+              <h3 className="text-2xl mb-4 text-white">Waliyu Gbadamosi</h3>
               <p className="text-gray-600 ">
              FrontEnd Developer </p>
             </div>
@@ -117,7 +117,7 @@ const Team = ()=>{
                 }}
               ></div>
             </div>
-            <h3 className="text-2xl mb-4">Billy Gbadamosi</h3>
+            <h3 className="text-2xl mb-4 text-white">Billy Gbadamosi</h3>
             <p className="text-gray-600 ">
                 Head Of Media
              </p>
