@@ -24,7 +24,7 @@ const ImageSlider = () => {
 
   return (
     <>
-    <div className="md:grid grid-cols-2 gap-4 mt-8">
+    <div className="md:grid grid-cols-2 m-4 p-4 gap-4 mt-8">
 
 
         <div>
