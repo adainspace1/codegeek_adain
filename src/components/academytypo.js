@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
-const ExampleComponent = () => {
+const AcademyTypo = () => {
   return (
     <>
         <div className='bg-black flex justify-center items-center mt-20 h-40'>
@@ -9,13 +9,13 @@ const ExampleComponent = () => {
      <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'THE FUTURE IS ADAIN',
+        'EXPLORE OUR ACADEMY',
         1000, 
         
-        'ENDLESS POSSIBILITIES',
+        'AFFORDABLE PRICES',
         1000, 
         
-        'THE FUTURE IS YOU',
+        'GREATE RESOURCES',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
      
       ]}
@@ -32,4 +32,4 @@ const ExampleComponent = () => {
   );
 };
 
-export default ExampleComponent;
+export default AcademyTypo;

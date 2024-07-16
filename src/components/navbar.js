@@ -116,7 +116,7 @@ function AdainNavBar() {
                   
                   
                   <li className={`text-adainblack hover:text-adainwhite  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                    <Link href="/Academy" onClick={() => handleClick('experiences')}>
+                    <Link href="/academy" onClick={() => handleClick('experiences')}>
                     Academy
                     </Link>
                   </li>
