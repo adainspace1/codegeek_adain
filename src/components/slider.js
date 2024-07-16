@@ -4,6 +4,7 @@ import {FaArrowLeft, FaArrowRight} from 'react-icons/fa'
 const images = [
   '/bg.webp',
   '/back.webp',
+  '/about.webp',
   '/10.jpeg',
   '/11.jpeg',
   '/13.jpeg'
@@ -80,7 +81,7 @@ const ImageSlider = () => {
     {/* contact */}
 
     <section className="container mx-auto px-16 lg:px-32  bg-white">
-        <h1 className="text-3xl md:text-4xl mt-20 text-black1 p-10 font-bold text-center lg:text-center">We usually reply within 3 hours</h1>
+        <h1 className="text-3xl md:text-4xl mt-20 text-black1 font-bold text-center lg:text-center">Contact Us</h1>
         
       </section>
 
