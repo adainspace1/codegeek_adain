@@ -12,18 +12,18 @@ const Team = ()=>{
             {/* team card */}
 
 
-    <div className="md:bg-orange-500 py-12 ">
+    <div className="bg-orange-500 py-12 ">
       <div className="md:container mx-auto">
         <div className="md:flex justify-center items-center">
             
           {/* Card 1 */}
-          <div className="bg-white md:w-full sm:w-1/8 md:w-1/8 lg:w-1/4 px-4 mb-8">
+          <div className="bg-white md:w-full m-4 p-4 sm:w-1/8 md:w-1/8 lg:w-1/4 px-4 mb-8">
           
             <div className="md:rounded-lg p-6 hover:scale-40 transform transition-transform duration-300">
               <div className="mb-4 relative">
               <img src='/ernest.png'
               alt='academy'
-              className="rounded-lg w-full h-40"
+              className="rounded-lg w-full md:h-40"
               width={200} height={100}/>
                 
                 {/* Gradient Effect */}
@@ -48,7 +48,7 @@ const Team = ()=>{
             <div className="mb-4 relative">
             <img src='/Des.JPG'
             alt='academy'
-            className="rounded-lg w-full h-40"
+            className="rounded-lg w-full md:h-40"
             width={200} height={100}/>
               
               {/* Gradient Effect */}
@@ -73,7 +73,7 @@ const Team = ()=>{
               <div className="mb-4 relative">
               <img src='/Walix.JPG'
               alt='academy'
-              className="rounded-lg w-full h-40"
+              className="rounded-lg w-full md:h-40"
               width={200} height={100}/>
                 
                 {/* Gradient Effect */}
@@ -99,7 +99,7 @@ const Team = ()=>{
             <div className="mb-4 relative">
             <img src='/Billy.JPG'
             alt='academy'
-            className="rounded-lg w-full h-40"
+            className="rounded-lg w-full md:h-40"
             width={200} height={100}/>
               
               {/* Gradient Effect */}
