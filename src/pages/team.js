@@ -123,6 +123,19 @@ const Team = ()=>{
       
     </div>
 
+{/* newsletter */}
+
+    <div className="bg-black py-12">
+
+        <div className="md:container mx-auto">
+            <div className="md:flex justify-center items-center">
+                    <h1 className="text-orange-500 text-2xl">Subscribe to our news letter</h1>
+            </div>
+        </div>
+
+
+    </div>
+
     <Footer/>
             </>
         );
