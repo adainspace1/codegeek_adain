@@ -133,7 +133,7 @@ const Trending = ({ icon, icontext, title, text})=>{
                 ></div>
               </div>
 
-              <div className="flex  gap-4 flex-row">
+              <div className="flex gap-4 flex-row">
 
                     <div className="flex items-start gap-2">
                     <FaUser size={15} className="text-orange-500"/>
