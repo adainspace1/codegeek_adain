@@ -74,7 +74,7 @@ const AcademyHero1 = ()=>{
 
 
          <ServiceCard 
-           image={"/t1.webp"}
+           image={"/c2.png"}
            name={"HTML, CSS and JavaScript"}
            />
             </div>
