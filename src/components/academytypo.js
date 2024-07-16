@@ -9,7 +9,7 @@ const AcademyTypo = () => {
      <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'EXPLORE  ACADEMY',
+        'EXPLORE ACADEMY',
         1000, 
         
         'AFFORDABLE PRICES',

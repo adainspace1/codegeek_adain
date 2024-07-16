@@ -1,5 +1,7 @@
 import React from "react";
-import {FaStarHalf, FaStar} from 'react-icons/fa'
+import { FaStar} from 'react-icons/fa'
+import Link from 'next/link'
+
 
 const ServiceCard = ({image, name,  desc})=>{
     return(
@@ -18,10 +20,22 @@ const ServiceCard = ({image, name,  desc})=>{
         
         <h3 className="text-2xl text-black font-bold">{name}</h3>
         <div className="flex flex-row">
-        <FaStar className="text-orange-500" size={10}/>
-        <FaStar className="text-orange-500" size={10}/>
-        <FaStar className="text-orange-500" size={10}/>
+        <FaStar className="text-orange-500" size={14}/> 
+        <FaStar className="text-orange-500" size={14}/>
+        <FaStar className="text-orange-500" size={14}/>
         </div>
+             <p className="text-sm">5.0</p>
+
+        
+        
+        <p>Get Full Hands On Experience</p>
+       
+
+        <div className='transform translate-y-70 animate-button-animation delay-1000'>
+                  <button className='md:text-black hover:text-white  bg-orange-500 hover:bg-orange-500 md:bg:hover-black  lg:m-8 p-1  w-42 shadow-md'>
+                   <Link href="https://hacked8.vercel.app/index.html#hero">GET STARTED NOW </Link> 
+                  </button>
+                </div>
         
       <section className="border-t border-blue-200 bg-black1 w-full">
 
