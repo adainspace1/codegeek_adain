@@ -28,7 +28,7 @@ const ImageSlider = () => {
 
 
         <div>
-            <h1 className="text-2xl text-orange-500 m-4 p-4 font-sans">
+            <h1 className="text-2xl  m-4 p-4 font-sans">
                 We are optimistic about developing world class solution
                 based products and provide services to meet the ever increasing demand 
                 resulting to growth, technological improvement and business expansion in various spheres of human

@@ -16,8 +16,8 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
       
       <div className='flex-1'>
         
-        <h3 className="text-lg text-orange-500 font-semibold">{title}</h3>
-        <p className="text-lg text-orange-500"> {desc}</p>
+        <h3 className="text-lg  font-semibold">{title}</h3>
+        <p className="text-lg "> {desc}</p>
         <div className='flex justify-end'>
         <FaArrowRight className="text-orange-500 " size={20}/>
 
@@ -39,7 +39,7 @@ const Services = () => {
       duration: "2",
     }}
     className="relative  container px-5 md:px-16 mx-auto mt-20">
-      <div className="flex gap-10 items-center flex-col lg:flex-row">
+      <div className="flex gap-10 items-center flex-col lg:flex-row" id='section1'>
         <div className="mt-10 relative w-full flex-1">
           <img
             src='/10.jpeg'
@@ -53,10 +53,10 @@ const Services = () => {
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
 
-            <h2 className="text-orange-500 text-3xl md:text-4xl font-bold text-center lg:text-left">
+            <h2 className=" text-3xl md:text-4xl font-bold text-center lg:text-left">
             People Technology Posibilities
             </h2>
-            <p className="text-orange-500">
+            <p className="textblack">
             To link consumers with service providers via developed content based products that service the global ICT sphere.            </p>
           </div>
           <ServiceCard

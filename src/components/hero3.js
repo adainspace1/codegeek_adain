@@ -14,8 +14,7 @@ const ServiceCard = ({image, name, title, desc})=>{
       
       <div className='flex-1'>
         
-        <h3 className="text-2xl text-orange-500 font-bold">{name}</h3>
-        <p className="text-2xl font-bold text-orange-500"> {title}</p>
+        <h3 className="text-2xl  font-bold">{name}</h3>
         <p className=' text-black'>
             {desc}
         </p>
@@ -33,14 +32,14 @@ const Hero3 = ()=>{
     return(
         <>
         <div className="flex justify-center items-center mt-20">
-        <h1 className="text-orange-500 text-2xl font-bold">Testimonials</h1>
+        <h1 className=" text-2xl font-bold">Testimonials</h1>
 
 
         </div>
 
 
         <div className="flex justify-center items-center ">
-        <h1 className="text-4xl font-bold">Our Valued Pathners</h1>
+        <h1 className="">Our Valued Pathners</h1>
 
 
         </div>
