@@ -79,7 +79,7 @@ function AdainNavBar() {
 
    {/* I made a button on Products and services here... */}
                   
-  <li className="relative text-sm text-adainblack hover:text-adainwhite">
+  <li className="relative text-lg text-adainblack hover:text-adainwhite">
     <button onClick={toggleDropdown} className="nav-link flex items-center">
       Products
       <FaCaretDown className="ml-1" />
@@ -90,7 +90,7 @@ function AdainNavBar() {
 
     {isDropdownOpen && (
       <div className="bg-orange-500 font-bold absolute py-8 my-4 text-sm  text-adainblack hover:text-adainwhite">
-        <Link href="https://quickmed.ng" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
+        <Link href="https://quickmedng.com" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
          QuickMed
         </Link>
         <Link href="/" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
