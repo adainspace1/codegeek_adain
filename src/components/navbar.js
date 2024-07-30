@@ -116,7 +116,7 @@ function AdainNavBar() {
                   
                   
                   <li className={`text-adainblack hover:text-adainwhite  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                    <Link href="/academy" onClick={() => handleClick('experiences')}>
+                    <Link href="https://hacked8.vercel.app/" onClick={() => handleClick('experiences')}>
                     Academy
                     </Link>
                   </li>
