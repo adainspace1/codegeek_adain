@@ -29,7 +29,7 @@ function AdainNavBar() {
 
   
   return (
-    <nav className="transition-opacity duration-200 w-full top-0 h-25 shadow-lg fixed lg:mb-8 bg-white backdrop-blur-3xl hover:bg-orange-500 opacity-100 z-50 hover:bg-avista2">
+    <nav className="transition-opacity duration-200 w-full top-0 h-25 shadow-lg fixed lg:mb-8 bg-white backdrop-blur-3xl  opacity-100 z-50">
    
      
         <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex sm:px-8">
@@ -90,7 +90,7 @@ function AdainNavBar() {
 
     {isDropdownOpen && (
       <div className="bg-orange-500 font-bold absolute py-8 my-4 text-sm  text-adainblack hover:text-adainwhite">
-        <Link href="https://quickmedng.com" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
+        <Link href="www.quickmedng.com" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
          QuickMed
         </Link>
         <Link href="/" className="rounded-2xl mx-2 px-2 dropdown-link  text-black hover:text-black ">
