@@ -29,26 +29,12 @@ const Trending = ({ icon, icontext, title, text})=>{
               {/* icon and write up */}
               <div className="flex  gap-4 flex-row">
 
-              <div className="flex items-start gap-2">
-              <FaUser size={15} className="text-orange-500"/>
-
-              <div className="flex-1">
-              <p className="text-sm font-bold text-orange-500"> Adnet</p>
-
-              </div>
-              </div>
+              
 
               {/*  */}
 
 
-              <div className="flex items-start gap-2">
-              <FaCalendar size={15} className="text-orange-500"/>
-
-              <div className="flex-1">
-              <p className="text-sm font-bold text-orange-500"> Jan.18,2024</p>
-
-              </div>
-              </div>
+             
 
               </div>
               
@@ -86,26 +72,12 @@ const Trending = ({ icon, icontext, title, text})=>{
 
             <div className="flex  gap-4 flex-row">
 
-              <div className="flex items-start gap-2">
-              <FaUser size={15} className="text-orange-500"/>
-
-              <div className="flex-1">
-              <p className="text-sm font-bold text-orange-500"> Adnet</p>
-
-              </div>
-              </div>
+              
 
               {/*  */}
 
 
-              <div className="flex items-start gap-2">
-              <FaCalendar size={15} className="text-orange-500"/>
-
-              <div className="flex-1">
-              <p className="text-sm font-bold text-orange-500"> Jan.18,2024</p>
-
-              </div>
-              </div>
+              
 
               </div>
             <h3 className="text-2xl mb-4">Cyber Security</h3>
@@ -135,26 +107,12 @@ const Trending = ({ icon, icontext, title, text})=>{
 
               <div className="flex gap-4 flex-row">
 
-                    <div className="flex items-start gap-2">
-                    <FaUser size={15} className="text-orange-500"/>
-
-                    <div className="flex-1">
-                    <p className="text-sm font-bold text-orange-500"> Adnet</p>
-
-                    </div>
-                    </div>
+                  
 
                     {/*  */}
 
 
-                    <div className="flex items-start gap-2">
-                    <FaCalendar size={15} className="text-orange-500"/>
-
-                    <div className="flex-1">
-                    <p className="text-sm font-bold text-orange-500"> Jan.18,2024</p>
-
-                    </div>
-                    </div>
+                   
 
                     </div>
                                   <h3 className="text-2xl mb-4">Internet Of Things</h3>
